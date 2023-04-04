@@ -12,6 +12,8 @@
 		3E5ED3E929DBB6C200F01CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E829DBB6C200F01CFE /* Assets.xcassets */; };
 		3E5ED3EC29DBB6C200F01CFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5ED3EB29DBB6C200F01CFE /* Preview Assets.xcassets */; };
 		3E5ED3F329DBB7C200F01CFE /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3F229DBB7C200F01CFE /* BindingChild.swift */; };
+		3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3F429DBC34D00F01CFE /* Conditional.swift */; };
+		3E5ED3F729DBC82400F01CFE /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3F629DBC82400F01CFE /* TernaryBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3E5ED3E829DBB6C200F01CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5ED3EB29DBB6C200F01CFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E5ED3F229DBB7C200F01CFE /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
+		3E5ED3F429DBC34D00F01CFE /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
+		3E5ED3F629DBC82400F01CFE /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */,
 				3E5ED3E629DBB6C100F01CFE /* Binding.swift */,
 				3E5ED3F229DBB7C200F01CFE /* BindingChild.swift */,
+				3E5ED3F429DBC34D00F01CFE /* Conditional.swift */,
+				3E5ED3F629DBC82400F01CFE /* TernaryBasic.swift */,
 				3E5ED3E829DBB6C200F01CFE /* Assets.xcassets */,
 				3E5ED3EA29DBB6C200F01CFE /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5ED3F729DBC82400F01CFE /* TernaryBasic.swift in Sources */,
+				3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */,
 				3E5ED3E729DBB6C100F01CFE /* Binding.swift in Sources */,
 				3E5ED3E529DBB6C100F01CFE /* SwiftUI_BasicApp.swift in Sources */,
 				3E5ED3F329DBB7C200F01CFE /* BindingChild.swift in Sources */,
