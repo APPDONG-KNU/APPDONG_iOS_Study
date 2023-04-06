@@ -12,7 +12,7 @@ struct ForEachLoop: View {
     var data: [String] = ["Hi", "Hello", "Hey everyone"]
     
     var body: some View {
-        // 1번
+        // 1번 0~9 반복
         VStack {
             ForEach(0..<10) { index in
                 HStack {
@@ -23,7 +23,7 @@ struct ForEachLoop: View {
             }
             Divider()
             
-            // 2번
+            // 2번 data의 값을 가져와서 id를 부여해줌, item의 개수만큼 반복
             ForEach(data, id: \.self) { item in
                 Text(item)
             }
