@@ -23,6 +23,14 @@
 		3E5ED40529DE9C3800F01CFE /* LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED40429DE9C3800F01CFE /* LazyGrid.swift */; };
 		3E5ED40C29DEB95000F01CFE /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED40B29DEB94F00F01CFE /* UserModel.swift */; };
 		3E5ED40E29DEBB6800F01CFE /* UserModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED40D29DEBB6800F01CFE /* UserModelView.swift */; };
+		3E5ED41029DFA06A00F01CFE /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED40F29DFA06A00F01CFE /* FruitModel.swift */; };
+		3E5ED41429DFA0D700F01CFE /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41329DFA0D700F01CFE /* FruitViewModel.swift */; };
+		3E5ED41629DFA4E600F01CFE /* FruitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41529DFA4E600F01CFE /* FruitView.swift */; };
+		3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41729DFEE6900F01CFE /* iOSDeviceModel.swift */; };
+		3E5ED41C29DFF09500F01CFE /* iOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41B29DFF09500F01CFE /* iOSDeviceViewModel.swift */; };
+		3E5ED41E29DFF0BE00F01CFE /* iOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41D29DFF0BE00F01CFE /* iOSDeviceView1.swift */; };
+		3E5ED42029DFF54B00F01CFE /* iOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED41F29DFF54B00F01CFE /* iOSDeviceView2.swift */; };
+		3E5ED42229DFF80000F01CFE /* iOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42129DFF80000F01CFE /* iOSDeviceView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,14 @@
 		3E5ED40429DE9C3800F01CFE /* LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid.swift; sourceTree = "<group>"; };
 		3E5ED40B29DEB94F00F01CFE /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3E5ED40D29DEBB6800F01CFE /* UserModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelView.swift; sourceTree = "<group>"; };
+		3E5ED40F29DFA06A00F01CFE /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		3E5ED41329DFA0D700F01CFE /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		3E5ED41529DFA4E600F01CFE /* FruitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitView.swift; sourceTree = "<group>"; };
+		3E5ED41729DFEE6900F01CFE /* iOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDeviceModel.swift; sourceTree = "<group>"; };
+		3E5ED41B29DFF09500F01CFE /* iOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		3E5ED41D29DFF0BE00F01CFE /* iOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDeviceView1.swift; sourceTree = "<group>"; };
+		3E5ED41F29DFF54B00F01CFE /* iOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDeviceView2.swift; sourceTree = "<group>"; };
+		3E5ED42129DFF80000F01CFE /* iOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDeviceView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				3E5ED40B29DEB94F00F01CFE /* UserModel.swift */,
+				3E5ED40F29DFA06A00F01CFE /* FruitModel.swift */,
+				3E5ED41729DFEE6900F01CFE /* iOSDeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				3E5ED40D29DEBB6800F01CFE /* UserModelView.swift */,
+				3E5ED41529DFA4E600F01CFE /* FruitView.swift */,
+				3E5ED41D29DFF0BE00F01CFE /* iOSDeviceView1.swift */,
+				3E5ED41F29DFF54B00F01CFE /* iOSDeviceView2.swift */,
+				3E5ED42129DFF80000F01CFE /* iOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +153,8 @@
 		3E5ED40A29DEB91E00F01CFE /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				3E5ED41329DFA0D700F01CFE /* FruitViewModel.swift */,
+				3E5ED41B29DFF09500F01CFE /* iOSDeviceViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -210,15 +234,23 @@
 				3E5ED3F729DBC82400F01CFE /* TernaryBasic.swift in Sources */,
 				3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */,
 				3E5ED40329DE953700F01CFE /* ForEachLoop.swift in Sources */,
+				3E5ED41429DFA0D700F01CFE /* FruitViewModel.swift in Sources */,
+				3E5ED41E29DFF0BE00F01CFE /* iOSDeviceView1.swift in Sources */,
+				3E5ED41629DFA4E600F01CFE /* FruitView.swift in Sources */,
 				3E5ED3FF29DDB8C100F01CFE /* Icon.swift in Sources */,
 				3E5ED40C29DEB95000F01CFE /* UserModel.swift in Sources */,
+				3E5ED42229DFF80000F01CFE /* iOSDeviceView3.swift in Sources */,
+				3E5ED41C29DFF09500F01CFE /* iOSDeviceViewModel.swift in Sources */,
+				3E5ED41029DFA06A00F01CFE /* FruitModel.swift in Sources */,
 				3E5ED3E729DBB6C100F01CFE /* Binding.swift in Sources */,
 				3E5ED3E529DBB6C100F01CFE /* SwiftUI_BasicApp.swift in Sources */,
 				3E5ED40529DE9C3800F01CFE /* LazyGrid.swift in Sources */,
+				3E5ED42029DFF54B00F01CFE /* iOSDeviceView2.swift in Sources */,
 				3E5ED3F929DBF9E500F01CFE /* Animation.swift in Sources */,
 				3E5ED3F329DBB7C200F01CFE /* BindingChild.swift in Sources */,
 				3E5ED40129DDBBD000F01CFE /* InitEnum.swift in Sources */,
 				3E5ED3FD29DD212C00F01CFE /* Gradient.swift in Sources */,
+				3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

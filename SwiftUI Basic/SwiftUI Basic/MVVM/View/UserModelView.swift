@@ -11,8 +11,8 @@ struct UserModelView: View {
     @State var users: [UserModel] = [
         UserModel(displayName: "철수", userName: "철수123", followerCount: 100, isChecked: true),
         UserModel(displayName: "영희", userName: "영희사랑", followerCount: 55, isChecked: false),
-        UserModel(displayName: "길동", userName: "홍길동", followerCount: 100, isChecked: true),
-        UserModel(displayName: "철수", userName: "철수123", followerCount: 100, isChecked: true)
+        UserModel(displayName: "길동", userName: "홍길동", followerCount: 100, isChecked: false),
+        UserModel(displayName: "한나", userName: "황한나", followerCount: 80, isChecked: true)
     ]
     var body: some View {
         NavigationView {
@@ -47,6 +47,7 @@ struct UserModelView: View {
                         } // : VStack
                         
                     } // : HStack
+                    .padding(.vertical, 10)
                 } // : Loop
             }.navigationTitle("회원 리스트")
         } // : Navigation
