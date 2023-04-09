@@ -49,6 +49,7 @@
 		3E5ED44429E2EA0300F01CFE /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44329E2EA0300F01CFE /* ScrollViewBasic.swift */; };
 		3E5ED44629E2F0A200F01CFE /* SafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44529E2F0A200F01CFE /* SafeAreaBasic.swift */; };
 		3E5ED44829E2F4C000F01CFE /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44729E2F4C000F01CFE /* ButtonBasic.swift */; };
+		3E5ED44E29E2FD8F00F01CFE /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44D29E2FD8F00F01CFE /* AlertBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		3E5ED44329E2EA0300F01CFE /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		3E5ED44529E2F0A200F01CFE /* SafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBasic.swift; sourceTree = "<group>"; };
 		3E5ED44729E2F4C000F01CFE /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
+		3E5ED44D29E2FD8F00F01CFE /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 				3E5ED42929E0190F00F01CFE /* Navigation.swift */,
 				3E5ED42B29E02B8E00F01CFE /* SecondNavigation.swift */,
 				3E5ED42D29E03AE700F01CFE /* ListBasic.swift */,
+				3E5ED44D29E2FD8F00F01CFE /* AlertBasic.swift */,
 			);
 			path = Core2;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				3E5ED40129DDBBD000F01CFE /* InitEnum.swift in Sources */,
 				3E5ED3FD29DD212C00F01CFE /* Gradient.swift in Sources */,
 				3E5ED43029E28F7100F01CFE /* TextBasic.swift in Sources */,
+				3E5ED44E29E2FD8F00F01CFE /* AlertBasic.swift in Sources */,
 				3E5ED44029E2C78800F01CFE /* PaddingBasic.swift in Sources */,
 				3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */,
 			);
