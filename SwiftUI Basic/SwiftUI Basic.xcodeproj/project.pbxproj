@@ -40,6 +40,13 @@
 		3E5ED43029E28F7100F01CFE /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42F29E28F7100F01CFE /* TextBasic.swift */; };
 		3E5ED43229E2929300F01CFE /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43129E2929300F01CFE /* ShapeBasic.swift */; };
 		3E5ED43429E29D0000F01CFE /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43329E29D0000F01CFE /* ColorBasic.swift */; };
+		3E5ED43629E2A27D00F01CFE /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43529E2A27D00F01CFE /* ImageBasic.swift */; };
+		3E5ED43A29E2AA1300F01CFE /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43929E2AA1300F01CFE /* FrameBasic.swift */; };
+		3E5ED43C29E2AF8600F01CFE /* BackgroundBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43B29E2AF8600F01CFE /* BackgroundBasic.swift */; };
+		3E5ED43E29E2C04700F01CFE /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43D29E2C04700F01CFE /* StackBasic.swift */; };
+		3E5ED44029E2C78800F01CFE /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43F29E2C78800F01CFE /* PaddingBasic.swift */; };
+		3E5ED44229E2CD9700F01CFE /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44129E2CD9700F01CFE /* SpacerBasic.swift */; };
+		3E5ED44429E2EA0300F01CFE /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED44329E2EA0300F01CFE /* ScrollViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +84,13 @@
 		3E5ED42F29E28F7100F01CFE /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		3E5ED43129E2929300F01CFE /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		3E5ED43329E29D0000F01CFE /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		3E5ED43529E2A27D00F01CFE /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
+		3E5ED43929E2AA1300F01CFE /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
+		3E5ED43B29E2AF8600F01CFE /* BackgroundBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBasic.swift; sourceTree = "<group>"; };
+		3E5ED43D29E2C04700F01CFE /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
+		3E5ED43F29E2C78800F01CFE /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
+		3E5ED44129E2CD9700F01CFE /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		3E5ED44329E2EA0300F01CFE /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,17 +127,24 @@
 				3E5ED42F29E28F7100F01CFE /* TextBasic.swift */,
 				3E5ED43129E2929300F01CFE /* ShapeBasic.swift */,
 				3E5ED43329E29D0000F01CFE /* ColorBasic.swift */,
+				3E5ED3FC29DD212C00F01CFE /* Gradient.swift */,
+				3E5ED3FE29DDB8C100F01CFE /* Icon.swift */,
+				3E5ED43529E2A27D00F01CFE /* ImageBasic.swift */,
+				3E5ED43929E2AA1300F01CFE /* FrameBasic.swift */,
+				3E5ED43B29E2AF8600F01CFE /* BackgroundBasic.swift */,
+				3E5ED43D29E2C04700F01CFE /* StackBasic.swift */,
+				3E5ED43F29E2C78800F01CFE /* PaddingBasic.swift */,
+				3E5ED44129E2CD9700F01CFE /* SpacerBasic.swift */,
+				3E5ED44329E2EA0300F01CFE /* ScrollViewBasic.swift */,
+				3E5ED40029DDBBD000F01CFE /* InitEnum.swift */,
+				3E5ED40229DE953700F01CFE /* ForEachLoop.swift */,
+				3E5ED40429DE9C3800F01CFE /* LazyGrid.swift */,
 				3E5ED3E629DBB6C100F01CFE /* Binding.swift */,
 				3E5ED3F229DBB7C200F01CFE /* BindingChild.swift */,
 				3E5ED3F429DBC34D00F01CFE /* Conditional.swift */,
 				3E5ED3F629DBC82400F01CFE /* TernaryBasic.swift */,
 				3E5ED3F829DBF9E500F01CFE /* Animation.swift */,
 				3E5ED3FA29DC2E2200F01CFE /* Transition.swift */,
-				3E5ED3FC29DD212C00F01CFE /* Gradient.swift */,
-				3E5ED3FE29DDB8C100F01CFE /* Icon.swift */,
-				3E5ED40029DDBBD000F01CFE /* InitEnum.swift */,
-				3E5ED40229DE953700F01CFE /* ForEachLoop.swift */,
-				3E5ED40429DE9C3800F01CFE /* LazyGrid.swift */,
 				3E5ED42329E0036800F01CFE /* AppStorageBasic.swift */,
 				3E5ED40729DEB8FD00F01CFE /* MVVM */,
 				3E5ED42529E0103700F01CFE /* Sheet.swift */,
@@ -257,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5ED3FB29DC2E2200F01CFE /* Transition.swift in Sources */,
+				3E5ED44429E2EA0300F01CFE /* ScrollViewBasic.swift in Sources */,
 				3E5ED40E29DEBB6800F01CFE /* UserModelView.swift in Sources */,
+				3E5ED43A29E2AA1300F01CFE /* FrameBasic.swift in Sources */,
 				3E5ED3F729DBC82400F01CFE /* TernaryBasic.swift in Sources */,
 				3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */,
 				3E5ED40329DE953700F01CFE /* ForEachLoop.swift in Sources */,
@@ -271,7 +294,10 @@
 				3E5ED3FF29DDB8C100F01CFE /* Icon.swift in Sources */,
 				3E5ED40C29DEB95000F01CFE /* UserModel.swift in Sources */,
 				3E5ED42229DFF80000F01CFE /* iOSDeviceView3.swift in Sources */,
+				3E5ED43C29E2AF8600F01CFE /* BackgroundBasic.swift in Sources */,
 				3E5ED42C29E02B8E00F01CFE /* SecondNavigation.swift in Sources */,
+				3E5ED43629E2A27D00F01CFE /* ImageBasic.swift in Sources */,
+				3E5ED44229E2CD9700F01CFE /* SpacerBasic.swift in Sources */,
 				3E5ED41C29DFF09500F01CFE /* iOSDeviceViewModel.swift in Sources */,
 				3E5ED41029DFA06A00F01CFE /* FruitModel.swift in Sources */,
 				3E5ED42829E0106500F01CFE /* Sheet2.swift in Sources */,
@@ -282,10 +308,12 @@
 				3E5ED42029DFF54B00F01CFE /* iOSDeviceView2.swift in Sources */,
 				3E5ED3F929DBF9E500F01CFE /* Animation.swift in Sources */,
 				3E5ED43229E2929300F01CFE /* ShapeBasic.swift in Sources */,
+				3E5ED43E29E2C04700F01CFE /* StackBasic.swift in Sources */,
 				3E5ED3F329DBB7C200F01CFE /* BindingChild.swift in Sources */,
 				3E5ED40129DDBBD000F01CFE /* InitEnum.swift in Sources */,
 				3E5ED3FD29DD212C00F01CFE /* Gradient.swift in Sources */,
 				3E5ED43029E28F7100F01CFE /* TextBasic.swift in Sources */,
+				3E5ED44029E2C78800F01CFE /* PaddingBasic.swift in Sources */,
 				3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
