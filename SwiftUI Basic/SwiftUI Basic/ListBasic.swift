@@ -97,7 +97,7 @@ struct ListBasic: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     addButton
                 }
-            } // : toolbar - navigationBarItems(leading: EditButton(), trailing: addButton)과 동일 
+            } // : toolbar - navigationBarItems(leading: EditButton(), trailing: addButton)과 동일
         } // :NavigationView
     }
 }
