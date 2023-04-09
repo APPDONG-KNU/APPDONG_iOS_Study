@@ -37,6 +37,9 @@
 		3E5ED42A29E0190F00F01CFE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42929E0190F00F01CFE /* Navigation.swift */; };
 		3E5ED42C29E02B8E00F01CFE /* SecondNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42B29E02B8E00F01CFE /* SecondNavigation.swift */; };
 		3E5ED42E29E03AE700F01CFE /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42D29E03AE700F01CFE /* ListBasic.swift */; };
+		3E5ED43029E28F7100F01CFE /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED42F29E28F7100F01CFE /* TextBasic.swift */; };
+		3E5ED43229E2929300F01CFE /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43129E2929300F01CFE /* ShapeBasic.swift */; };
+		3E5ED43429E29D0000F01CFE /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED43329E29D0000F01CFE /* ColorBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +74,9 @@
 		3E5ED42929E0190F00F01CFE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		3E5ED42B29E02B8E00F01CFE /* SecondNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigation.swift; sourceTree = "<group>"; };
 		3E5ED42D29E03AE700F01CFE /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		3E5ED42F29E28F7100F01CFE /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
+		3E5ED43129E2929300F01CFE /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		3E5ED43329E29D0000F01CFE /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */,
+				3E5ED42F29E28F7100F01CFE /* TextBasic.swift */,
+				3E5ED43129E2929300F01CFE /* ShapeBasic.swift */,
+				3E5ED43329E29D0000F01CFE /* ColorBasic.swift */,
 				3E5ED3E629DBB6C100F01CFE /* Binding.swift */,
 				3E5ED3F229DBB7C200F01CFE /* BindingChild.swift */,
 				3E5ED3F429DBC34D00F01CFE /* Conditional.swift */,
@@ -258,6 +267,7 @@
 				3E5ED41629DFA4E600F01CFE /* FruitView.swift in Sources */,
 				3E5ED42E29E03AE700F01CFE /* ListBasic.swift in Sources */,
 				3E5ED42A29E0190F00F01CFE /* Navigation.swift in Sources */,
+				3E5ED43429E29D0000F01CFE /* ColorBasic.swift in Sources */,
 				3E5ED3FF29DDB8C100F01CFE /* Icon.swift in Sources */,
 				3E5ED40C29DEB95000F01CFE /* UserModel.swift in Sources */,
 				3E5ED42229DFF80000F01CFE /* iOSDeviceView3.swift in Sources */,
@@ -271,9 +281,11 @@
 				3E5ED40529DE9C3800F01CFE /* LazyGrid.swift in Sources */,
 				3E5ED42029DFF54B00F01CFE /* iOSDeviceView2.swift in Sources */,
 				3E5ED3F929DBF9E500F01CFE /* Animation.swift in Sources */,
+				3E5ED43229E2929300F01CFE /* ShapeBasic.swift in Sources */,
 				3E5ED3F329DBB7C200F01CFE /* BindingChild.swift in Sources */,
 				3E5ED40129DDBBD000F01CFE /* InitEnum.swift in Sources */,
 				3E5ED3FD29DD212C00F01CFE /* Gradient.swift in Sources */,
+				3E5ED43029E28F7100F01CFE /* TextBasic.swift in Sources */,
 				3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
