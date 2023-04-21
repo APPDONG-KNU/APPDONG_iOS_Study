@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E29F98729F0EC4800B4C62D /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98629F0EC4800B4C62D /* Stepper.swift */; };
 		3E5ED3E529DBB6C100F01CFE /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */; };
 		3E5ED3E729DBB6C100F01CFE /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E629DBB6C100F01CFE /* Binding.swift */; };
 		3E5ED3E929DBB6C200F01CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E829DBB6C200F01CFE /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E29F98629F0EC4800B4C62D /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 		3E5ED3E129DBB6C100F01CFE /* SwiftUI Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		3E5ED3E629DBB6C100F01CFE /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				3E5ED45929E44C5E00F01CFE /* PickerBasic.swift */,
 				3E5ED45B29E5A28100F01CFE /* ColorPickerBasic.swift */,
 				3E5ED45D29E5AC9600F01CFE /* DatePickerBasic.swift */,
+				3E29F98629F0EC4800B4C62D /* Stepper.swift */,
 			);
 			path = Core2;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */,
 				3E5ED40329DE953700F01CFE /* ForEachLoop.swift in Sources */,
 				3E5ED41429DFA0D700F01CFE /* FruitViewModel.swift in Sources */,
+				3E29F98729F0EC4800B4C62D /* Stepper.swift in Sources */,
 				3E5ED42429E0036800F01CFE /* AppStorageBasic.swift in Sources */,
 				3E5ED41E29DFF0BE00F01CFE /* iOSDeviceView1.swift in Sources */,
 				3E5ED41629DFA4E600F01CFE /* FruitView.swift in Sources */,
