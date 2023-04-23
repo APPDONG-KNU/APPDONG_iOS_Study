@@ -1,5 +1,5 @@
 //
-//  Stepper.swift
+//  StepperBasic.swift
 //  SwiftUI Basic
 //
 //  Created by Bokyung on 2023/04/20.
@@ -29,8 +29,8 @@ struct StepperBasic: View {
                 differentWidth(amount: -20)
             } // : Stepper
             
-        }// :VStack
-    }
+        } // :VStack
+    } // body
     
     // function - increase or decrease widthChange
     func differentWidth(amount: CGFloat) {
