@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E29F98729F0EC4800B4C62D /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98629F0EC4800B4C62D /* Stepper.swift */; };
+		3E29F98729F0EC4800B4C62D /* StepperBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98629F0EC4800B4C62D /* StepperBasic.swift */; };
+		3E29F98929F4F8B300B4C62D /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98829F4F8B300B4C62D /* SliderBasic.swift */; };
+		3E29F98B29F4FEE300B4C62D /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98A29F4FEE300B4C62D /* TabViewBasic.swift */; };
+		3E29F98D29F5097B00B4C62D /* DarkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98C29F5097B00B4C62D /* DarkBasic.swift */; };
+		3E29F98F29F5106400B4C62D /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F98E29F5106400B4C62D /* OnAppearBasic.swift */; };
+		3E29F99129F51F3C00B4C62D /* onTapGuestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29F99029F51F3C00B4C62D /* onTapGuestureBasic.swift */; };
 		3E5ED3E529DBB6C100F01CFE /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */; };
 		3E5ED3E729DBB6C100F01CFE /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E629DBB6C100F01CFE /* Binding.swift */; };
 		3E5ED3E929DBB6C200F01CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5ED3E829DBB6C200F01CFE /* Assets.xcassets */; };
@@ -61,7 +66,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E29F98629F0EC4800B4C62D /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		3E29F98629F0EC4800B4C62D /* StepperBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBasic.swift; sourceTree = "<group>"; };
+		3E29F98829F4F8B300B4C62D /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		3E29F98A29F4FEE300B4C62D /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+		3E29F98C29F5097B00B4C62D /* DarkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkBasic.swift; sourceTree = "<group>"; };
+		3E29F98E29F5106400B4C62D /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		3E29F99029F51F3C00B4C62D /* onTapGuestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGuestureBasic.swift; sourceTree = "<group>"; };
 		3E5ED3E129DBB6C100F01CFE /* SwiftUI Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5ED3E429DBB6C100F01CFE /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		3E5ED3E629DBB6C100F01CFE /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
@@ -267,7 +277,12 @@
 				3E5ED45929E44C5E00F01CFE /* PickerBasic.swift */,
 				3E5ED45B29E5A28100F01CFE /* ColorPickerBasic.swift */,
 				3E5ED45D29E5AC9600F01CFE /* DatePickerBasic.swift */,
-				3E29F98629F0EC4800B4C62D /* Stepper.swift */,
+				3E29F98629F0EC4800B4C62D /* StepperBasic.swift */,
+				3E29F98829F4F8B300B4C62D /* SliderBasic.swift */,
+				3E29F98A29F4FEE300B4C62D /* TabViewBasic.swift */,
+				3E29F98C29F5097B00B4C62D /* DarkBasic.swift */,
+				3E29F98E29F5106400B4C62D /* OnAppearBasic.swift */,
+				3E29F99029F51F3C00B4C62D /* onTapGuestureBasic.swift */,
 			);
 			path = Core2;
 			sourceTree = "<group>";
@@ -349,8 +364,9 @@
 				3E5ED3F729DBC82400F01CFE /* TernaryBasic.swift in Sources */,
 				3E5ED3F529DBC34D00F01CFE /* Conditional.swift in Sources */,
 				3E5ED40329DE953700F01CFE /* ForEachLoop.swift in Sources */,
+				3E29F99129F51F3C00B4C62D /* onTapGuestureBasic.swift in Sources */,
 				3E5ED41429DFA0D700F01CFE /* FruitViewModel.swift in Sources */,
-				3E29F98729F0EC4800B4C62D /* Stepper.swift in Sources */,
+				3E29F98729F0EC4800B4C62D /* StepperBasic.swift in Sources */,
 				3E5ED42429E0036800F01CFE /* AppStorageBasic.swift in Sources */,
 				3E5ED41E29DFF0BE00F01CFE /* iOSDeviceView1.swift in Sources */,
 				3E5ED41629DFA4E600F01CFE /* FruitView.swift in Sources */,
@@ -361,6 +377,7 @@
 				3E5ED45A29E44C5E00F01CFE /* PickerBasic.swift in Sources */,
 				3E5ED3FF29DDB8C100F01CFE /* Icon.swift in Sources */,
 				3E5ED40C29DEB95000F01CFE /* UserModel.swift in Sources */,
+				3E29F98929F4F8B300B4C62D /* SliderBasic.swift in Sources */,
 				3E5ED45029E3E72A00F01CFE /* ContextMenuBasic.swift in Sources */,
 				3E5ED42229DFF80000F01CFE /* iOSDeviceView3.swift in Sources */,
 				3E5ED45629E4062000F01CFE /* TextFieldBasic.swift in Sources */,
@@ -373,9 +390,11 @@
 				3E5ED42829E0106500F01CFE /* Sheet2.swift in Sources */,
 				3E5ED3E729DBB6C100F01CFE /* Binding.swift in Sources */,
 				3E5ED42629E0103700F01CFE /* Sheet.swift in Sources */,
+				3E29F98F29F5106400B4C62D /* OnAppearBasic.swift in Sources */,
 				3E5ED3E529DBB6C100F01CFE /* SwiftUI_BasicApp.swift in Sources */,
 				3E5ED40529DE9C3800F01CFE /* LazyGrid.swift in Sources */,
 				3E5ED42029DFF54B00F01CFE /* iOSDeviceView2.swift in Sources */,
+				3E29F98B29F4FEE300B4C62D /* TabViewBasic.swift in Sources */,
 				3E5ED44629E2F0A200F01CFE /* SafeAreaBasic.swift in Sources */,
 				3E5ED3F929DBF9E500F01CFE /* Animation.swift in Sources */,
 				3E5ED43229E2929300F01CFE /* ShapeBasic.swift in Sources */,
@@ -390,6 +409,7 @@
 				3E5ED44E29E2FD8F00F01CFE /* AlertBasic.swift in Sources */,
 				3E5ED45829E444C500F01CFE /* ToggleBasic.swift in Sources */,
 				3E5ED44029E2C78800F01CFE /* PaddingBasic.swift in Sources */,
+				3E29F98D29F5097B00B4C62D /* DarkBasic.swift in Sources */,
 				3E5ED41829DFEE6900F01CFE /* iOSDeviceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
