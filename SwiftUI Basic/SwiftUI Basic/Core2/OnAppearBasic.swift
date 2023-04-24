@@ -13,7 +13,7 @@ struct OnAppearBasic: View {
     @State var count: Int = 0
     
     /**
-     onAppear: 인터넷으로 데이터를 가져올떄 양이 많다면 load로 인해 앱이 정체되는 상황이 발생할 수도 있다
+     onAppear: 인터넷으로 데이터를 가져올때 양이 많다면 load로 인해 앱이 정체되는 상황이 발생할 수도 있다
      이때 onAppear를 사용하여 특정 뷰가 화면에 나타날때 data를 fetch하는 이벤트를 실행하면 한번에 load되는 것을 방지할 수 있음
      */
     var body: some View {
