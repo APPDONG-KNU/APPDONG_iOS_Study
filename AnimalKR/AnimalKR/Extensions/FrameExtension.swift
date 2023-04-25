@@ -15,7 +15,7 @@ import SwiftUI
 
 extension CGFloat {
     // 스크린 사이즈를 시스템이 알아서 responsive하게 저장해줌
-    static let screenWidht = UIScreen.main.bounds.width // 스크린의 width
+    static let screenWidth = UIScreen.main.bounds.width // 스크린의 width
     static let screenHeight = UIScreen.main.bounds.height // 스크린의 height
 }
 
