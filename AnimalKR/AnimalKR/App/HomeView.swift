@@ -27,14 +27,14 @@ struct HomeView: View {
             }
             
             // 2. VideoView
-            VideoView()
+            VideoView(vm: vm)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("비디오")
                 }
             
             // 3. GallaryView
-            GallaryView()
+            GallaryView(vm: vm)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("갤러리")
