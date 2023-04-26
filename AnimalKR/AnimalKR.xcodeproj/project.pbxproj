@@ -36,6 +36,7 @@
 		3EE135C329F8B9D600395148 /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE135C229F8B9D600395148 /* YouTubeView.swift */; };
 		3EE135C529F91A5B00395148 /* AppInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE135C429F91A5B00395148 /* AppInfoLabel.swift */; };
 		3EE135C729F9222E00395148 /* AppInfoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE135C629F9222E00395148 /* AppInfoContent.swift */; };
+		3EE135C929F9520D00395148 /* AppCopyrightContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE135C829F9520D00395148 /* AppCopyrightContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		3EE135C229F8B9D600395148 /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
 		3EE135C429F91A5B00395148 /* AppInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoLabel.swift; sourceTree = "<group>"; };
 		3EE135C629F9222E00395148 /* AppInfoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoContent.swift; sourceTree = "<group>"; };
+		3EE135C829F9520D00395148 /* AppCopyrightContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopyrightContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				3E29F9C829F6BFF600B4C62D /* AppInfoView.swift */,
 				3EE135C429F91A5B00395148 /* AppInfoLabel.swift */,
 				3EE135C629F9222E00395148 /* AppInfoContent.swift */,
+				3EE135C829F9520D00395148 /* AppCopyrightContent.swift */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				3E29F9BD29F6855900B4C62D /* FrameExtension.swift in Sources */,
 				3EE135B029F7D0D800395148 /* AnimalListView.swift in Sources */,
 				3E29F9BF29F6B5AC00B4C62D /* JsonDecodeExtension.swift in Sources */,
+				3EE135C929F9520D00395148 /* AppCopyrightContent.swift in Sources */,
 				3EE135C329F8B9D600395148 /* YouTubeView.swift in Sources */,
 				3EE135BB29F8069A00395148 /* DetailFact.swift in Sources */,
 				3EE135B929F803B900395148 /* DetailGallery.swift in Sources */,
