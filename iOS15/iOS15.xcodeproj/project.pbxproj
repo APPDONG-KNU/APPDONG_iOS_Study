@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E7AE62129FD0AC5007E47D3 /* ButtonStyleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE62029FD0AC5007E47D3 /* ButtonStyleBasic.swift */; };
+		3E7AE62329FD13C4007E47D3 /* SwipeActionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE62229FD13C3007E47D3 /* SwipeActionBasic.swift */; };
+		3E7AE62529FD1C69007E47D3 /* BadgeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE62429FD1C69007E47D3 /* BadgeBasic.swift */; };
 		3EC186A429FCF41A00AC893F /* iOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC186A329FCF41A00AC893F /* iOS15App.swift */; };
 		3EC186A829FCF41C00AC893F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC186A729FCF41C00AC893F /* Assets.xcassets */; };
 		3EC186AB29FCF41C00AC893F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC186AA29FCF41C00AC893F /* Preview Assets.xcassets */; };
 		3EC186B229FCF43700AC893F /* AsyncImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC186B129FCF43700AC893F /* AsyncImageBasic.swift */; };
 		3EC186B429FCFB3D00AC893F /* MaterialBackgroundBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC186B329FCFB3D00AC893F /* MaterialBackgroundBasic.swift */; };
+		3EC186B629FD08BF00AC893F /* TextSelectionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC186B529FD08BF00AC893F /* TextSelectionBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7AE62029FD0AC5007E47D3 /* ButtonStyleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBasic.swift; sourceTree = "<group>"; };
+		3E7AE62229FD13C3007E47D3 /* SwipeActionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionBasic.swift; sourceTree = "<group>"; };
+		3E7AE62429FD1C69007E47D3 /* BadgeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBasic.swift; sourceTree = "<group>"; };
 		3EC186A029FCF41A00AC893F /* iOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC186A329FCF41A00AC893F /* iOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15App.swift; sourceTree = "<group>"; };
 		3EC186A729FCF41C00AC893F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC186AA29FCF41C00AC893F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EC186B129FCF43700AC893F /* AsyncImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBasic.swift; sourceTree = "<group>"; };
 		3EC186B329FCFB3D00AC893F /* MaterialBackgroundBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialBackgroundBasic.swift; sourceTree = "<group>"; };
+		3EC186B529FD08BF00AC893F /* TextSelectionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				3EC186A329FCF41A00AC893F /* iOS15App.swift */,
 				3EC186B129FCF43700AC893F /* AsyncImageBasic.swift */,
 				3EC186B329FCFB3D00AC893F /* MaterialBackgroundBasic.swift */,
+				3EC186B529FD08BF00AC893F /* TextSelectionBasic.swift */,
+				3E7AE62029FD0AC5007E47D3 /* ButtonStyleBasic.swift */,
+				3E7AE62229FD13C3007E47D3 /* SwipeActionBasic.swift */,
+				3E7AE62429FD1C69007E47D3 /* BadgeBasic.swift */,
 				3EC186A729FCF41C00AC893F /* Assets.xcassets */,
 				3EC186A929FCF41C00AC893F /* Preview Content */,
 			);
@@ -140,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7AE62129FD0AC5007E47D3 /* ButtonStyleBasic.swift in Sources */,
+				3E7AE62329FD13C4007E47D3 /* SwipeActionBasic.swift in Sources */,
+				3EC186B629FD08BF00AC893F /* TextSelectionBasic.swift in Sources */,
 				3EC186B429FCFB3D00AC893F /* MaterialBackgroundBasic.swift in Sources */,
 				3EC186B229FCF43700AC893F /* AsyncImageBasic.swift in Sources */,
+				3E7AE62529FD1C69007E47D3 /* BadgeBasic.swift in Sources */,
 				3EC186A429FCF41A00AC893F /* iOS15App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
