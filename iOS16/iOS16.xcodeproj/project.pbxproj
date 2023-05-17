@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2238FC2A13DF26009D9BC5 /* ShareLinkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2238FB2A13DF26009D9BC5 /* ShareLinkBasic.swift */; };
+		3E2238FE2A13E761009D9BC5 /* GridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2238FD2A13E761009D9BC5 /* GridBasic.swift */; };
+		3E2239002A13EDEA009D9BC5 /* NavigationStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2238FF2A13EDEA009D9BC5 /* NavigationStackBasic.swift */; };
 		3E7AE63329FD2353007E47D3 /* iOS16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE63229FD2353007E47D3 /* iOS16App.swift */; };
 		3E7AE63729FD2354007E47D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7AE63629FD2354007E47D3 /* Assets.xcassets */; };
 		3E7AE63A29FD2354007E47D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7AE63929FD2354007E47D3 /* Preview Assets.xcassets */; };
 		3E7AE64129FD2411007E47D3 /* CustomSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE64029FD2411007E47D3 /* CustomSheetBasic.swift */; };
 		3E7AE64329FE2659007E47D3 /* ChartBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AE64229FE2659007E47D3 /* ChartBasic.swift */; };
+		3EFC2E8A2A14B061002B1938 /* GuageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC2E892A14B060002B1938 /* GuageBasic.swift */; };
+		3EFC2E8C2A14B630002B1938 /* TabGuestureLocationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC2E8B2A14B630002B1938 /* TabGuestureLocationBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E2238FB2A13DF26009D9BC5 /* ShareLinkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkBasic.swift; sourceTree = "<group>"; };
+		3E2238FD2A13E761009D9BC5 /* GridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBasic.swift; sourceTree = "<group>"; };
+		3E2238FF2A13EDEA009D9BC5 /* NavigationStackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBasic.swift; sourceTree = "<group>"; };
 		3E7AE62F29FD2353007E47D3 /* iOS16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7AE63229FD2353007E47D3 /* iOS16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS16App.swift; sourceTree = "<group>"; };
 		3E7AE63629FD2354007E47D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7AE63929FD2354007E47D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E7AE64029FD2411007E47D3 /* CustomSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetBasic.swift; sourceTree = "<group>"; };
 		3E7AE64229FE2659007E47D3 /* ChartBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBasic.swift; sourceTree = "<group>"; };
+		3EFC2E892A14B060002B1938 /* GuageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuageBasic.swift; sourceTree = "<group>"; };
+		3EFC2E8B2A14B630002B1938 /* TabGuestureLocationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGuestureLocationBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 				3E7AE63229FD2353007E47D3 /* iOS16App.swift */,
 				3E7AE64229FE2659007E47D3 /* ChartBasic.swift */,
 				3E7AE64029FD2411007E47D3 /* CustomSheetBasic.swift */,
+				3E2238FB2A13DF26009D9BC5 /* ShareLinkBasic.swift */,
+				3E2238FD2A13E761009D9BC5 /* GridBasic.swift */,
+				3E2238FF2A13EDEA009D9BC5 /* NavigationStackBasic.swift */,
+				3EFC2E892A14B060002B1938 /* GuageBasic.swift */,
+				3EFC2E8B2A14B630002B1938 /* TabGuestureLocationBasic.swift */,
 				3E7AE63629FD2354007E47D3 /* Assets.xcassets */,
 				3E7AE63829FD2354007E47D3 /* Preview Content */,
 			);
@@ -142,7 +157,12 @@
 			files = (
 				3E7AE64129FD2411007E47D3 /* CustomSheetBasic.swift in Sources */,
 				3E7AE64329FE2659007E47D3 /* ChartBasic.swift in Sources */,
+				3E2238FC2A13DF26009D9BC5 /* ShareLinkBasic.swift in Sources */,
+				3EFC2E8A2A14B061002B1938 /* GuageBasic.swift in Sources */,
+				3E2239002A13EDEA009D9BC5 /* NavigationStackBasic.swift in Sources */,
+				3E2238FE2A13E761009D9BC5 /* GridBasic.swift in Sources */,
 				3E7AE63329FD2353007E47D3 /* iOS16App.swift in Sources */,
+				3EFC2E8C2A14B630002B1938 /* TabGuestureLocationBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
