@@ -1,5 +1,5 @@
 //
-//  TabGuestureLocationBasic.swift
+//  TapGuestureLocationBasic.swift
 //  iOS16
 //
 //  Created by Bokyung on 2023/05/17.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TabGuestureLocationBasic: View {
+struct TapGuestureLocationBasic: View {
     @State var point: CGPoint = .init(x: 0.0, y: 0.0)
     
     @State var x: Double = 0.0
@@ -49,8 +49,8 @@ struct TabGuestureLocationBasic: View {
     }
 }
 
-struct TabGuestureLocationBasic_Previews: PreviewProvider {
+struct TapGuestureLocationBasic_Previews: PreviewProvider {
     static var previews: some View {
-        TabGuestureLocationBasic()
+        TapGuestureLocationBasic()
     }
 }
